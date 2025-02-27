@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link"; // Para navegação entre páginas
-import { auth, db } from "./firebase"; // Firebase
+import { auth, db } from "@/app/config/firebase"; // Firebase
 import { doc, getDoc } from "firebase/firestore"; // Firestore
-import LogoutButton from "@/app/LogoutButton.js";
+import LogoutButton from "@/app/components/LogoutButton";
 
 const Dashboard = () => {
   const [user, setUser] = useState(null);
