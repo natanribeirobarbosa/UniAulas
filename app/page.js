@@ -61,7 +61,7 @@ const Dashboard = () => {
         </p>
         <div className="flex gap-4">
           <Link href="/login" prefetch={true}>
-            <button className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+            <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
               Fazer Login
             </button>
           </Link>
