@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from "react";
-import { auth } from "../../config/firebase";
+import { auth } from "../config/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { updateProfile } from "firebase/auth"; // Para atualizar o nome de exibição
-import { db } from "../../config/firebase"; // Supondo que você tenha configurado o Firestore
+import { db } from "../config/firebase"; // Supondo que você tenha configurado o Firestore
 import { doc, setDoc } from "firebase/firestore"; // Para salvar dados no Firestore
 import Link from 'next/link';
 

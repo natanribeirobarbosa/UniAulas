@@ -1,10 +1,13 @@
 'use client';
 
 import { useState, useEffect } from "react";
-import { auth, db } from "../../config/firebase"; // Importando Firebase
+import { auth, db } from "../config/firebase"; // Importando Firebase
 import { doc, getDoc } from "firebase/firestore"; // Firestore functions
-import LogoutButton from "@/app/LogoutButton.js";
+import LogoutButton from "@/app/components/LogoutButton";
 import Link from 'next/link';
+
+
+
 
 const Dashboard = () => {
   const [user, setUser] = useState(null);

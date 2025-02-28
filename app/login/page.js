@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from "react";
-import { auth } from "../../config/firebase";
+import { auth } from "../config/firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Link from "next/link";
 
@@ -68,7 +68,7 @@ const Login = () => {
               ← Voltar para Início
             </button>
           </Link>
-          <Link href="/cadastro">
+          <Link href="/register">
             <button className="text-blue-600 hover:text-blue-800">
               Criar uma conta
             </button>

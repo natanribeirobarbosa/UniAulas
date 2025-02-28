@@ -6,9 +6,12 @@ import {
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
-import Login from "../routes/login/page";
-import Register from "../routes/register/page";
-import Dashboard from "../routes/dashboard/page";
+
+
+
+import Login from "../login/page";
+import Register from "../register/page";
+import Dashboard from "../dashboard/page";
 import LogoutButton from "./App/LogoutButton";
 
 
